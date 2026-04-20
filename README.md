@@ -1,4 +1,4 @@
-# 🧠 DementiaSense AI: Speech-Based Cognitive Screening
+#  DementiaSense AI: Speech-Based Cognitive Screening
 
 [![Status](https://img.shields.io/badge/Status-Academic_Research-blue.svg)](https://github.com/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -8,7 +8,7 @@
 
 ---
 
-## 🔬 Research & Biological Foundations
+##  Research & Biological Foundations
 
 Dementia often manifests in speech long before physical symptoms appear. Our research focuses on two primary domains of biomarkers:
 
@@ -23,12 +23,14 @@ As cognitive decline progresses, individuals often experience *Anomic Aphasia* (
 Neurological degeneration affecting motor control and memory retrieval manifests in:
 - **Speech Disfluency**: Increased frequency of "filled pauses" (um, uh, ah).
 - **Prosodic Irregularity**: Abnormal variation in pitch (F0) and speech rate (WPM).
-- **Silent Pauses**: Longer and more frequent gaps during word retrieval (Word-Finding Hesitations).
+- **Silent Pauses**: Longer and more frequent gaps durigit remote add origin https://github.com/ARYANCY/Speech-Based-Cognitive-Screening.git
+git branch -M main
+git push -u origin mainng word retrieval (Word-Finding Hesitations).
 - **Voice Quality**: Changes in jitter, shimmer, and Harmonic-to-Noise Ratio (HNR).
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 DementiaSense AI employs a hybrid pipeline to maximize detection accuracy:
 
@@ -56,7 +58,7 @@ graph TD
 
 ---
 
-## 📊 Technical Feature Set
+##  Technical Feature Set
 
 The system extracts over **790 independent features** across multiple dimensions:
 
@@ -69,7 +71,7 @@ The system extracts over **790 independent features** across multiple dimensions
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - **Node.js 16+** (Backend & Frontend)
@@ -97,7 +99,7 @@ Copy `.env.example` to `.env` in both folders and configure your ports and Mongo
 
 ---
 
-## 📈 Prediction Logic & Calibration
+##  Prediction Logic & Calibration
 
 The system doesn't just output a "Yes/No". It provides a **calibrated probability score** based on:
 1. **Base ML Probability**: Derived from the Gradient Boosting model.
@@ -110,12 +112,12 @@ The system doesn't just output a "Yes/No". It provides a **calibrated probabilit
 
 ---
 
-## ⚠️ Medical Disclaimer
+##  Medical Disclaimer
 **DementiaSense AI is a screening tool, NOT a diagnostic medical device.** It is intended for early-stage screening and research purposes only. All results should be validated by a qualified neurologist or healthcare professional.
 
 ---
 
-## 🛠️ Roadmap
+##  Roadmap
 - [ ] Integration of Vision-based Emotion Analysis (Facial blunting detection).
 - [ ] Support for non-English languages (Spanish, Hindi, Mandarin).
 - [ ] Mobile-native application for continuous monitoring.
