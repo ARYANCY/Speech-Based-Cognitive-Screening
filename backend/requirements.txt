@@ -1,0 +1,13 @@
+google-generativeai
+vosk
+pymongo
+soundfile
+pandas
+tqdm
+numpy
+scipy
+scikit-learn
+joblib
+nltk
+librosa
+pydub

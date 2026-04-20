@@ -1,0 +1,24 @@
+MODEL TRAINING REPORT
+=====================
+
+Best Model: Gradient Boosting
+
+Dataset:
+  Total samples: 8000
+  Training samples: 6400
+  Test samples: 1600
+  Class distribution: Healthy=2594, Dementia=3806
+
+Model Performance:
+  Accuracy:  1.0000 (100.00%)
+  Precision: 1.0000
+  Recall:    1.0000
+  F1-Score:  1.0000
+  ROC-AUC:   1.0000
+
+Confusion Matrix:
+  TN=648, FP=0
+  FN=0, TP=952
+
+Training Date: 2025-11-30 23:53:31.805691
+Status: READY FOR DEPLOYMENT

@@ -1,0 +1,11 @@
+openai-whisper
+ffmpeg-python
+soundfile
+miniaudio
+pandas
+tqdm
+numpy
+scipy
+scikit-learn
+joblib
+nltk
